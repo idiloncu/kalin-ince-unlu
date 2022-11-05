@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+      //  1.Kalın ünlüler: a, ı, o, u. 2.İnce ünlüler: e, i, ö, ü
+
+        char letter='ı';
+        System.out.print("Harf: ");
+        switch (letter){
+            case 'a':
+            case 'ı':
+            case 'o':
+            case 'u':
+            System.out.print("Kalın sesli ");
+            default:
+                System.out.print("İnce sesli");
+                break;
+        }
+        }
+    }
